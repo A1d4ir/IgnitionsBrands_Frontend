@@ -1,12 +1,45 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
+import Image from 'next/image'
+import styles from '../styles/Nosotros.module.css'
 
 const Nosotros = () => {
     return (
         <Layout
             pagina="Nosotros"
         >
-            <h1>Desde Nosotros</h1>
+            <main className="contenedor">
+                <h2 className="heading">Nosotros</h2>
+
+                <div className={styles.contenido}>
+
+                    <Image 
+                        layout="responsive" 
+                        width={600} 
+                        height={450} 
+                        src="/img/nosotros.jpg" 
+                        alt="Imagen sobre nosotros" 
+                    />
+
+                    <div>
+                        <p>
+                            IgnitionsBrands es un proyecto que nacio con la intención
+                            de crear, inovar y revolucionar, de la mano de las 
+                            ultimas tecnologías y las tendencias globales, con 
+                            el fin de ofrecer a una diversa cantiad de clientes
+                            un conjunto de soluciones   en el area del marketing
+                            digital, la creación de contenido digital, el desarrollo
+                            e paginas web sencillas o estaticas hasta complejas
+                            aplicaciónes web utilizando las mejores tecnologías y
+                            siguiendo las mejores practicas posibles. 
+                        </p>
+                        <p>
+                            En IgnitionsBrands disfrutamos lo que hacems ya que nos
+                            apasiona hacerlo, por lo tanto, puedes confiar en que tu
+                            proyecto estara en buenas manos.
+                        </p>
+                    </div>
+                </div>
+            </main>
         </Layout>
     )
 }

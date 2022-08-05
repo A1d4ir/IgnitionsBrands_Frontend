@@ -1,8 +1,9 @@
 :root {
-  --primary: #e99401;
+  --primary: #f39c12;
+  --secundary: #d35400;
   --negro: #262626;
   --blanco: #FFF;
-  --fuente-principal: 'Outfit', sans-serif;
+  --fuente-principal: 'Ubuntu', sans-serif;
 }
 html {
   font-size: 62.5%;

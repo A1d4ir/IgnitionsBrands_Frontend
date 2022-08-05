@@ -1,0 +1,15 @@
+.headingSoluciones {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+    color: var(--negro);
+    margin: 5rem 0;
+}
+
+.subtitleSoluciones {
+    text-align: center;
+}
+
+.contenedorCards {
+    display: flex;
+}
