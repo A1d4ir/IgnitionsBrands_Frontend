@@ -4,7 +4,7 @@ import Footer from "./Footer"
 
 const Layout = ({children, pagina}) => {
     return (
-        <div>
+        <>
             <Head>
                 <title>IgnitionsBrands - {pagina}</title>
                 <meta 
@@ -20,13 +20,12 @@ const Layout = ({children, pagina}) => {
                 /> 
             </Head>
 
-            <Header />
+                <Header />
 
-            {children}    
+                {children}    
             
-            <Footer />
-
-        </div>
+                <Footer />
+        </>
     )
 }
 

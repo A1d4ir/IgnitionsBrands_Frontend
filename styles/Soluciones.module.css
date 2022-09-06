@@ -10,6 +10,36 @@
     text-align: center;
 }
 
-.contenedorCards {
+.contenedorCards {padding-top: 2rem;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.card {
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    width: 90%;
+}
+
+.cardText {
+    font-size: 1.6rem;
+}
+
+.cardTitle {
+    font-weight: bold;
+}
+
+@media (min-width: 480px) {
+    .contenedorCards {
+        flex-direction: row;
+        column-gap: 2rem;
+        align-items: stretch;
+    }
+
+    .card {
+        width: 33%;
+    }
 }
