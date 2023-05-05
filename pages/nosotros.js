@@ -22,20 +22,17 @@ const Nosotros = () => {
 
                     <div>
                         <p>
-                            IgnitionsBrands es un proyecto que nacio con la intención
-                            de crear, inovar y revolucionar, de la mano de las 
-                            ultimas tecnologías y las tendencias globales, con 
-                            el fin de ofrecer a una diversa cantiad de clientes
-                            un conjunto de soluciones   en el area del marketing
-                            digital, la creación de contenido digital, el desarrollo
-                            e paginas web sencillas o estaticas hasta complejas
-                            aplicaciónes web utilizando las mejores tecnologías y
-                            siguiendo las mejores practicas posibles. 
+                            IgnitionsBrands es un proyecto que nació con la intención de crear, 
+                            innovar y revolucionar, de la mano de las últimas tecnologías y las 
+                            tendencias globales, con el fin de ofrecer a una diversa cantidad de 
+                            clientes un conjunto de soluciones en el área del marketing digital, 
+                            la creación de contenido digital, el desarrollo y páginas web sencillas 
+                            o estáticas hasta complejas aplicaciones web utilizando las mejores 
+                            tecnologías y siguiendo las mejores prácticas posibles.. 
                         </p>
                         <p>
-                            En IgnitionsBrands disfrutamos lo que hacems ya que nos
-                            apasiona hacerlo, por lo tanto, puedes confiar en que tu
-                            proyecto estara en buenas manos.
+                            En IgnitionsBrands disfrutamos lo que hacemos, ya que nos apasiona hacerlo, 
+                            por lo tanto, puedes confiar en que tu proyecto estará en buenas manos..
                         </p>
                     </div>
                 </div>
